@@ -1,46 +1,57 @@
-# 🌱 RuralAgroOliveira
+# 🌾 RuralAgroOliveira - Demo
 
-**Sistema de Gestão Agrícola** desenvolvido em C# .NET (Windows Forms + API REST) com foco na realidade do agronegócio brasileiro. O objetivo é oferecer uma solução robusta, prática e personalizável para produtores, consultores e empresas agrícolas.
+Este repositório apresenta uma **demonstração segura** do sistema agrícola desenvolvido com base nas necessidades reais de gestão rural. Ele é focado em exibir a estrutura técnica, telas, e parte do código sem expor a lógica comercial ou dados sensíveis.
 
-## 📌 Funcionalidades principais
+## 🎯 Visão Geral
 
-- ✅ Cadastro completo de empresas, filiais, propriedades e talhões
-- 🌾 Gerenciamento de culturas e variedades por safra
-- 📦 Controle de produtos, clientes e fornecedores
-- 🧭 Planejamento agrícola com vinculação a culturas
-- 🛠️ Ordem de serviço agrícola (em desenvolvimento)
-- 📊 Visualização de dados em gráficos (via React)
-- 🔐 Backend com API REST (ASP.NET Core)
-- 🗂️ Banco de dados PostgreSQL
+O sistema RuralAgroOliveira foi projetado para auxiliar produtores e consultores no planejamento, controle e execução de suas atividades agrícolas, com uma arquitetura modular e flexível.
 
-## 💻 Tecnologias utilizadas
+## 🧩 Funcionalidades Demonstração
 
-- C# .NET 9 (WinForms + ASP.NET Core Web API)
-- React (visualização de gráficos e dashboards)
-- PostgreSQL
-- Entity Framework Core
-- Telerik Reporting
-- Swagger/OpenAPI
+- Cadastro de propriedade, talhão e cultura
+- Visualização de ordens de serviço (apenas telas)
+- Integração com API REST em C# (.NET Core)
+- Relatórios e gráficos (com React.js)
+- Banco de dados PostgreSQL
 
-## 🎯 Objetivo
+## 🖼️ Imagens
+![image](https://github.com/user-attachments/assets/bf32b3fc-5795-4071-be5d-d897a0663806)
 
-Este sistema busca atender as necessidades reais de pequenos a médios produtores rurais e consultorias agrícolas, oferecendo controle de ponta a ponta — desde o planejamento até os apontamentos de atividades e resultados de safra.
+![image](https://github.com/user-attachments/assets/ff434bd0-da71-4982-821c-73d28a3cf201)
 
-## 📸 Imagens (em breve)
+![image](https://github.com/user-attachments/assets/db04ef64-2767-4507-9fee-8d8ed04d45fa)
 
-> Adicione aqui alguns prints do sistema: tela de cadastro, tela de gráfico, ordens de serviço, etc.
+![image](https://github.com/user-attachments/assets/6c1f74cf-9b3c-4394-8508-f78559537ae6)
 
-## 📂 Estrutura do projeto
-📁 RuralAgroOliveira/
-├── Api/ -> Backend em ASP.NET Core
-├── Forms/ -> Frontend Windows Forms
-├── Reports/ -> Relatórios com Telerik
-├── Models/ -> Entidades de domínio
-├── Migrations/ -> Scripts de banco de dados
-└── README.md
+
+## 🛠️ Tecnologias Utilizadas
+
+- Backend: C# .NET Core (API REST)
+- Frontend: Windows Forms + React (gráficos)
+- Banco de Dados: PostgreSQL
+- ORM: Entity Framework Core
+- Ferramentas de Relatório: Telerik
+
+## 📎 Estrutura Demonstrada
+
+📁 RuralAgroOliveira-Demo/
+├── README.md
+├── Screenshots/
+│ ├── cadastro-propriedade.png
+│ ├── planejamento.png
+│ └── grafico.png
+├── ExampleApi/
+│ ├── PropriedadeController.cs
+│ └── Models/
+└── ...
+
+## 🔐 Observação
+
+Este projeto é uma **versão de demonstração**. O sistema completo está em ambiente privado por questões de segurança e estratégia comercial.
 
 ## 📬 Contato
 
-> Caso tenha interesse em projetos similares, estou à disposição:
-- GitHub: [Flazioney](https://github.com/Flazioney)
-- LinkedIn: (https://www.linkedin.com/in/flazioney-oliveira-assis-6b6192a5/)
+Quer algo parecido para sua empresa ou consultoria agrícola?
+
+➡️ GitHub: [Flazioney](https://github.com/Flazioney)  
+➡️ LinkedIn: (https://www.linkedin.com/in/flazioney-oliveira-assis-6b6192a5/)
